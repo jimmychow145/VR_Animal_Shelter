@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Readme.asset
+    - Assets/Readme.asset.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Settings.meta
+    - Assets/Settings/SampleSceneProfile.asset
+    - Assets/Settings/SampleSceneProfile.asset.meta
+    - Assets/Settings/URP-Balanced-Renderer.asset
+    - Assets/Settings/URP-Balanced-Renderer.asset.meta
+    - Assets/Settings/URP-Balanced.asset
+    - Assets/Settings/URP-Balanced.asset.meta
+    - Assets/Settings/URP-HighFidelity-Renderer.asset
+    - Assets/Settings/URP-HighFidelity-Renderer.asset.meta
+    - Assets/Settings/URP-HighFidelity.asset
+    - Assets/Settings/URP-HighFidelity.asset.meta
+    - Assets/Settings/URP-Performant-Renderer.asset
+    - Assets/Settings/URP-Performant-Renderer.asset.meta
+    - Assets/Settings/URP-Performant.asset
+    - Assets/Settings/URP-Performant.asset.meta
+    - Assets/TutorialInfo.meta
+    - Assets/TutorialInfo/Icons.meta
+    - Assets/TutorialInfo/Icons/URP.png
+    - Assets/TutorialInfo/Icons/URP.png.meta
+    - Assets/TutorialInfo/Layout.wlt
+    - Assets/TutorialInfo/Layout.wlt.meta
+    - Assets/TutorialInfo/Scripts.meta
+    - Assets/TutorialInfo/Scripts/Editor.meta
+    - Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+    - Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs.meta
+    - Assets/TutorialInfo/Scripts/Readme.cs
+    - Assets/TutorialInfo/Scripts/Readme.cs.meta
+    - Assets/UniversalRenderPipelineGlobalSettings.asset
+    - Assets/UniversalRenderPipelineGlobalSettings.asset.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0

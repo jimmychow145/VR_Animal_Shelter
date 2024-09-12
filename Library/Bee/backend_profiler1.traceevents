@@ -1,0 +1,529 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678913193410934, "dur":25535, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193436476, "dur":332, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193436927, "dur":1189, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193438201, "dur":1013, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193439217, "dur":53030, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193492249, "dur":585, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193493202, "dur":3471, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678913193437906, "dur":1364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193439276, "dur":6162, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193445473, "dur":734, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193446221, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193446325, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1678913193446463, "dur":747, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193447212, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1678913193447423, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193447817, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193447812, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193447905, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193448469, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193448467, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193448556, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193448739, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193448734, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193449017, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193449154, "dur":220, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193449149, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193449376, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193449514, "dur":712, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193449510, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450228, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450353, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450351, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450627, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450757, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450752, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193450837, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451009, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451007, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451106, "dur":498, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451613, "dur":165, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451605, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451780, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451973, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193451968, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193452106, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193452241, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193452237, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678913193452331, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678913193452454, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1678913193452588, "dur":10490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1678913193463165, "dur":29146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193438019, "dur":1274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193439294, "dur":6152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193445589, "dur":271, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678913193445472, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1678913193445863, "dur":2143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193448009, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193448007, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193448098, "dur":650, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193448756, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193448750, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449003, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449167, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449162, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449425, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449593, "dur":226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449590, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193449820, "dur":784, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193450610, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193450606, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193450708, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193450820, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193450816, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193450903, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451031, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451026, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451124, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451263, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451261, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451351, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451491, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451488, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451664, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451869, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451864, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193451955, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452096, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452093, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452169, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452272, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452270, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452346, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452482, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678913193452626, "dur":10322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678913193463048, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1678913193463045, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1678913193463285, "dur":147, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678913193463433, "dur":28829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193438120, "dur":1197, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193439318, "dur":6129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193445468, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678913193445814, "dur":1433, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193447277, "dur":187, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193447248, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193447466, "dur":367, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193447840, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193447835, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193447939, "dur":706, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193448651, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193448647, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193448742, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193448885, "dur":539, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193448880, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193449425, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193449601, "dur":1210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193449599, "dur":1214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.ProBuilder.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193450813, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193450933, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193450928, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451024, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451132, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451127, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451216, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451331, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451329, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451419, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451566, "dur":257, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451561, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451824, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451927, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193451925, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193452013, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193452156, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193452152, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678913193452276, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678913193452533, "dur":495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1678913193452531, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1678913193453057, "dur":10699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1678913193463833, "dur":28470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193438221, "dur":1118, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193439340, "dur":6114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193445465, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1678913193445747, "dur":1212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193446973, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1678913193446961, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447114, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447400, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447398, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447577, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447706, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447705, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193447792, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448071, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448069, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448156, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448262, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448259, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448343, "dur":403, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448750, "dur":260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193448748, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193449012, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193449133, "dur":823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193449129, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193449958, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193450100, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193450095, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193450317, "dur":554, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193450878, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193450873, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193450976, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451123, "dur":98, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451120, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451223, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451334, "dur":326, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451329, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451663, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451779, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451777, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193451867, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452005, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452003, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452084, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452184, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452182, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452289, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452433, "dur":363, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\com.unity.services.core\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452429, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1678913193452799, "dur":480, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678913193453281, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1678913193453387, "dur":9803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1678913193463304, "dur":28937, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193439143, "dur":344, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193439487, "dur":5962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193445519, "dur":346, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678913193445465, "dur":403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1678913193445868, "dur":1078, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193446948, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447093, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447398, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447395, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447571, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447720, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447719, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193447809, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448144, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448141, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448225, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448610, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448606, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448695, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448833, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193448828, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449111, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449248, "dur":278, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449244, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.ProBuilder.Poly2Tri.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449528, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449639, "dur":243, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449635, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.ProBuilder.Csg.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449884, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449993, "dur":1352, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193449989, "dur":1357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451347, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451462, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451458, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451560, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451675, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451670, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451758, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451862, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451858, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193451940, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193452069, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193452065, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193452187, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678913193452358, "dur":21583, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\Plugins\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193452355, "dur":21595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193474572, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678913193476511, "dur":15761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193438416, "dur":944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193439361, "dur":6096, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193445518, "dur":334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678913193445471, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678913193445854, "dur":1399, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447264, "dur":200, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447255, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447466, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447604, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447602, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447714, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447831, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447827, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193447914, "dur":488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193448408, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193448403, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193448486, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193448640, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193448638, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193448747, "dur":439, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193449192, "dur":1674, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193449188, "dur":1680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193450869, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193450997, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193450991, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451131, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451263, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451259, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451341, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451487, "dur":148, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451484, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193451637, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452106, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452104, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452188, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452343, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452338, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452425, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678913193452702, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678913193453057, "dur":10030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1678913193463195, "dur":29049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193438563, "dur":816, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193439379, "dur":6072, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193445467, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1678913193445815, "dur":2051, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193447894, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193447868, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193447993, "dur":688, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193448685, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193448683, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193448992, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449132, "dur":275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449127, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449424, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449541, "dur":301, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449537, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449844, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449979, "dur":256, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193449976, "dur":260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450237, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450353, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450351, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450631, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450783, "dur":96, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450779, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450880, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450996, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193450991, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451076, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451187, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451182, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451271, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451377, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451372, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451468, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451659, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451654, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451814, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451972, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193451967, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193452085, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193452191, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193452188, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678913193452310, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678913193452572, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1678913193452768, "dur":13224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1678913193466099, "dur":26307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193438636, "dur":760, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193439397, "dur":6044, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193445539, "dur":330, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1678913193445466, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1678913193445872, "dur":456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193446333, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":8, "ts":1678913193446330, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1678913193446629, "dur":594, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193447226, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1678913193447426, "dur":374, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193447807, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193447802, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193447889, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193448256, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193448252, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193448352, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193448822, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193448816, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193449066, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193449222, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193449217, "dur":279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193449496, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193449646, "dur":988, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193449642, "dur":993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193450636, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193450787, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193450783, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193450867, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193450973, "dur":87, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193450970, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451062, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451194, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451190, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451272, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451404, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451402, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451485, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451658, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451655, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193451743, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193452052, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193452047, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193452135, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193452249, "dur":750, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193452246, "dur":761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678913193453008, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678913193453199, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1678913193453318, "dur":10810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1678913193464270, "dur":27996, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193438736, "dur":678, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193439414, "dur":6030, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193445467, "dur":450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1678913193445920, "dur":2033, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193447977, "dur":85, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193447956, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448065, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448371, "dur":79, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448369, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448454, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448559, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448557, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448660, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448801, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193448795, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193449065, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193449188, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193449183, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.ProBuilder.KdTree.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193449443, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193449737, "dur":472, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193449733, "dur":477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193450211, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678913193450322, "dur":442, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193450318, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193452801, "dur":4754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678913193457622, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1678913193457725, "dur":7928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1678913193465733, "dur":26590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193438864, "dur":567, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193439432, "dur":6087, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193445520, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678913193445824, "dur":1201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193447028, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678913193447201, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193447825, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193447808, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193447924, "dur":583, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193448511, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193448508, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193448610, "dur":680, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193449296, "dur":1859, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193449291, "dur":1865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451157, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451265, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451263, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451409, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451521, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451516, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451670, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451820, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451818, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193451905, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193452016, "dur":313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193452011, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678913193452331, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678913193452444, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1678913193452702, "dur":5379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1678913193458175, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1678913193458265, "dur":8841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1678913193467180, "dur":25073, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193438944, "dur":507, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193439452, "dur":6047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193445545, "dur":343, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity 2022.1.23f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1678913193445511, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1678913193445891, "dur":1532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447427, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447425, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project.exe" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447513, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447598, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447594, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447739, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447865, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447862, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193447955, "dur":700, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193448661, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193448656, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193449071, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193449214, "dur":1599, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193449209, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193450815, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451015, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451010, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451100, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451230, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451225, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451311, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451421, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451416, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451505, "dur":145, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451656, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451651, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451735, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451869, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451867, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193451947, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452044, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452039, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452131, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452239, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452234, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452325, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452461, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1678913193452584, "dur":39464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1678913193439049, "dur":419, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193439469, "dur":5994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193445471, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1678913193445864, "dur":1573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193447439, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1678913193447606, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193447789, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193447767, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193447882, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448213, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448211, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448276, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448357, "dur":59, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448355, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448418, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448511, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448510, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448588, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448901, "dur":427, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193448898, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.ProBuilder.Stl.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193449330, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193449514, "dur":1136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193449509, "dur":1142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193450652, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193450781, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193450778, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193450882, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451002, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193450997, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451085, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451222, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451216, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451307, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451461, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451456, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451578, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451700, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451698, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451777, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451925, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193451920, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193452008, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193452119, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity Projects\\2023 TSA VR Project\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193452114, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678913193452194, "dur":373, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193452572, "dur":12238, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1678913193452569, "dur":12255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Unity Projects/2023 TSA VR Project EXE/2023 TSA VR Project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1678913193464826, "dur":336, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678913193465165, "dur":27155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678913193499671, "dur":3264, "ph":"X", "name": "ProfilerWriteOutput" }
+,
